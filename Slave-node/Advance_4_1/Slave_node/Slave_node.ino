@@ -15,7 +15,7 @@
 // HC-05
 // HC-05 TXD -> Arduino D10
 // HC-05 RXD -> Arduino D11
-SoftwareSerial BT(10, 11);   // Arduino RX, TX
+SoftwareSerial BT(10, 11);  // Arduino RX, TX
 
 // LED
 const int LED_PIN = 9;
@@ -30,7 +30,7 @@ int potValue = 0;
 int motorSpeed = 0;
 
 unsigned long lastSendTime = 0;
-const unsigned long SEND_INTERVAL = 50;   // send every 50 ms
+const unsigned long SEND_INTERVAL = 50;  // send every 50 ms
 
 
 void setup() {
